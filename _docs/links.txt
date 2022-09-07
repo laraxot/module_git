@@ -1,0 +1,1 @@
+https://github.com/grosv/laravel-git-workflow
