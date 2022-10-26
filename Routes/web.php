@@ -11,6 +11,6 @@
 |
 */
 
-Route::prefix('git')->group(function() {
+Route::prefix('git')->group(function () {
     Route::get('/', 'GitController@index');
 });
