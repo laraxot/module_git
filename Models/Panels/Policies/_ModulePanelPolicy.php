@@ -1,10 +1,8 @@
 <?php
 
-namespace Modules\Git\Models\Panels\Policies;
+declare(strict_types=1);
 
-use Illuminate\Auth\Access\HandlesAuthorization;
-use Modules\LU\Models\User as User;
-use Modules\Git\Models\Panels\Policies\_ModulePanelPolicy as Panel;
+namespace Modules\Git\Models\Panels\Policies;
 
 use Modules\Cms\Models\Panels\Policies\XotBasePanelPolicy;
 

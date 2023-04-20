@@ -8,13 +8,15 @@ use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 
-class GitController extends Controller {
+class GitController extends Controller
+{
     /**
      * Display a listing of the resource.
      *
      * @return Renderable
      */
-    public function index() {
+    public function index()
+    {
         return view('git::index');
     }
 
@@ -23,7 +25,8 @@ class GitController extends Controller {
      *
      * @return Renderable
      */
-    public function create() {
+    public function create()
+    {
         return view('git::create');
     }
 
@@ -32,7 +35,8 @@ class GitController extends Controller {
      *
      * @return Renderable
      */
-    public function store(Request $request) {
+    public function store(Request $request)
+    {
         return view('git::store');
     }
 
@@ -43,7 +47,8 @@ class GitController extends Controller {
      *
      * @return Renderable
      */
-    public function show($id) {
+    public function show($id)
+    {
         return view('git::show');
     }
 
@@ -54,7 +59,8 @@ class GitController extends Controller {
      *
      * @return Renderable
      */
-    public function edit($id) {
+    public function edit($id)
+    {
         return view('git::edit');
     }
 
@@ -65,7 +71,8 @@ class GitController extends Controller {
      *
      * @return Renderable
      */
-    public function update(Request $request, $id) {
+    public function update(Request $request, $id)
+    {
         return view('git::update');
     }
 
@@ -76,7 +83,8 @@ class GitController extends Controller {
      *
      * @return Renderable
      */
-    public function destroy($id) {
+    public function destroy($id)
+    {
         return view('git::destroy');
     }
 }

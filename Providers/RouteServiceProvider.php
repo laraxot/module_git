@@ -6,7 +6,8 @@ namespace Modules\Git\Providers;
 
 use Modules\Xot\Providers\XotBaseRouteServiceProvider;
 
-class RouteServiceProvider extends XotBaseRouteServiceProvider {
+class RouteServiceProvider extends XotBaseRouteServiceProvider
+{
     protected string $moduleNamespace = 'Modules\Git\Http\Controllers';
 
     protected string $module_dir = __DIR__;
