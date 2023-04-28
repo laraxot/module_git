@@ -5,7 +5,7 @@ declare(strict_types=1);
 use Illuminate\Support\Str;
 
 return [
-    'baseUrl' => '',
+    'baseUrl' => 'https://laraxot.github.io/module_git/',
     'production' => false,
     'siteName' => 'Modulo Git',
     'siteDescription' => 'Beautiful docs powered by Jigsaw',
