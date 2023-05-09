@@ -1,2 +1,2 @@
 providers:
-  - Modules\Blog\Providers\BlogServiceProvider
+  - Modules\Git\Providers\GitServiceProvider
