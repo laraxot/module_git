@@ -19,5 +19,8 @@
         "psr-4": {
             "Modules\\Git\\": ""
         }
+    },
+    "require-dev": {
+        "nunomaduro/larastan": "^2.6"
     }
 }
