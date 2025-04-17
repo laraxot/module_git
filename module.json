@@ -1,0 +1,11 @@
+{
+    "name": "Git",
+    "alias": "git",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Git\\Providers\\GitServiceProvider"
+    ],
+    "files": []
+}
