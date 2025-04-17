@@ -50,4 +50,4 @@
 </section>
 <?php $__env->stopSection(); ?>
 
-<?php echo $__env->make('_layouts.master', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH /var/www/html/_bases/base_pfed/laravel/Modules/Git/docs/source/index.blade.php ENDPATH**/ ?>
+<?php echo $__env->make('_layouts.master', Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH /var/www/html/_bases/base_pfed/laravel/Modules/Git/docs/source/index.blade.php ENDPATH**/ ?>
